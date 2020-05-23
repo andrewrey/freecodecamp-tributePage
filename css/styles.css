@@ -71,6 +71,13 @@ video {
   background: white;
   border-radius: 10px;
   min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+article {
+  width: 80%;
 }
 
 /* ============================================= */
