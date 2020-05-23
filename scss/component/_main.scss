@@ -53,7 +53,12 @@ iframe{
 blockquote{
     width: 80%;
     margin: 10px auto;
+    font-size: 1.5rem;
     display: block;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: $quoteFont;
 }
 
 
@@ -64,5 +69,35 @@ blockquote{
 }
 
 img{
-    max-width: 45%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.muskaInfo{
+    h2 {
+        text-align: center;
+    }
+    a{
+        background-color: peachpuff;
+        margin: 10px auto;
+        display: block;
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        box-shadow: 2px 2px 3px black;
+    }
+}
+
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+th,
+td {
+    border: 1px solid black;
 }
