@@ -5,12 +5,13 @@
 
 .gridWrap{
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-columns: minmax(150px, 1fr);
-    grid-template-rows: 250px 1fr 150px;
+    grid-template-rows: 100px 250px auto 50px;
     gap: 5px;
     grid-template-areas: 
         "head"
+        "vid"
         "main"
         "foot";
 }
@@ -18,6 +19,12 @@
 header{
     grid-area: head;
     background-color: pink;
+}
+
+.videoWrap{
+    grid-area: vid;
+    position: relative;
+    overflow: hidden;
 }
 
 main{

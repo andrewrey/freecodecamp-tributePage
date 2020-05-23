@@ -2,15 +2,12 @@
 /*              Main                             */
 /* ============================================= */
 
-main{
-    position: relative;
-}
+
 
 video {
     display: block;
-    margin: 0 auto;
-    height: auto;
-    max-width: 100%;
+    margin: auto;
+    width: 100%;
 }
 
 .overlay{
@@ -19,6 +16,14 @@ video {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(135, 206, 250, .9);
+    background-color: rgba(135, 206, 250, .6);
     
+}
+
+.infoCard{
+    width: 80%;
+    margin: 10px auto;
+    background: white;
+    border-radius: 10px;
+    min-height: 400px;
 }
