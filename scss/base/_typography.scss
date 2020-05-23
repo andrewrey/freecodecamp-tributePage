@@ -2,13 +2,19 @@
 /*              Typography                       */
 /* ============================================= */
 
+//Fonts
+
+$headerFont:  'Abril Fatface', cursive;
+
+
+
 
 .gridWrap{
     display: grid;
     min-height: 100vh;
     grid-template-columns: minmax(150px, 1fr);
     grid-template-rows: 100px 250px auto 50px;
-    gap: 5px;
+    // gap: 5px;
     grid-template-areas: 
         "head"
         "vid"
@@ -18,7 +24,15 @@
 
 header{
     grid-area: head;
-    background-color: pink;
+    background-color: #E27D60;
+    color: #fff;
+    text-align: center;
+    h1{
+        padding-top: 10px;
+        font-family: $headerFont;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px black;
+    }
 }
 
 .videoWrap{
@@ -29,10 +43,10 @@ header{
 
 main{
     grid-area: main;
-    background-color: lightblue;
+    background-color: #C38D9E;
 }
 
 footer{
     grid-area: foot;
-    background-color: lightcoral;
+    background-color: #41B3A3;
 }
