@@ -1,3 +1,24 @@
 /* ============================================= */
 /*              Main                             */
 /* ============================================= */
+
+main{
+    position: relative;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(135, 206, 250, .9);
+    
+}
